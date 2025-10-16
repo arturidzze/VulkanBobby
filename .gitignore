@@ -1,0 +1,49 @@
+# --- IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Gradle / Loom
+.gradle/
+build/
+**/build/
+.remapped/
+remappedSrc/
+gradle-app.setting
+
+# Keep Gradle Wrapper in VCS
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Dev runs
+run/
+runs/
+logs/
+*.log
+
+# --- JVM dumps
+hs_err_pid*
+*.hprof
+
+# --- OS junk
+.DS_Store
+Thumbs.db
+
+# --- Misc
+*.ctxt
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+*.launch
+*.cfg
+
+# --- Archive / package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar

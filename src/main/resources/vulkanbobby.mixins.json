@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arturidzze.vulkanbobby.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "bobby.FakeChunkManagerMixin",
+    "vulkanmod.OptionsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "vulkanbobby",
+  "version": "${version}",
+  "name": "VulkanBobby",
+  "description": "Compatibility layer between VulkanMod and Bobby for Fabric 1.21.5",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/vulkanbobby/icon.png",
+  "environment": "client",
+  "mixins": [
+    "vulkanbobby.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "bobby": "5.2.7",
+    "vulkanmod": "0.5.6"
+  }
+}
