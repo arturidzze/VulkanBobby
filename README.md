@@ -1,6 +1,6 @@
 # VulkanBobby
 
-A small **compatibility layer** between **VulkanMod** and **Bobby** (Fabric, Minecraft 1.21.5).  
+A small **compatibility layer** between **[VulkanMod](https://github.com/xCollateral/VulkanMod)** and **[Bobby](https://github.com/Johni0702/bobby/)** (Fabric, Minecraft 1.21.5).  
 Keeps Bobby’s cached (fake) chunks visible with VulkanMod.
 
 ## Requirements
