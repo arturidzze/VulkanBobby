@@ -10,7 +10,7 @@ Keeps Bobby’s cached (fake) chunks visible with VulkanMod.
 
 ## Install
 1. Put `vulkanbobby-<version>.jar` into `mods/` together with Bobby and VulkanMod.
-2. Launch with Fabric (no server changes).
+2. Launch with Fabric.
 
 ## Build
 ```bash
