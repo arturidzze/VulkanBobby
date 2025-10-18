@@ -16,7 +16,7 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "bobby": "5.2.7",
-    "vulkanmod": "0.5.6"
+    "bobby": "5.2.4",
+    "vulkanmod": "0.5.5"
   }
 }
