@@ -1,12 +1,12 @@
 # VulkanBobby
 
-A small **compatibility layer** between **[VulkanMod](https://github.com/xCollateral/VulkanMod)** and **[Bobby](https://github.com/Johni0702/bobby/)** (Fabric, Minecraft 1.21.1).  
+A small **compatibility layer** between **[VulkanMod](https://github.com/xCollateral/VulkanMod)** and **[Bobby](https://github.com/Johni0702/bobby/)** (Fabric, Minecraft 1.21.4).  
 Keeps Bobby’s cached (fake) chunks visible with VulkanMod.
 
 ## Requirements
-- Minecraft **1.21.1**, Java **21**
+- Minecraft **1.21.4**, Java **21**
 - Fabric Loader **0.17.x**, Fabric API **0.116.x**
-- Bobby **5.2.4**, VulkanMod **0.5.5**
+- Bobby **5.2.6**, VulkanMod **0.5.6**
 
 ## Install
 1. Put `vulkanbobby-<version>.jar` into `mods/` together with Bobby and VulkanMod.
