@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "vulkanbobby",
-  "version": "${version}",
+  "version": "${version}+mc${minecraft_version}",
   "name": "VulkanBobby",
-  "description": "Compatibility layer between VulkanMod and Bobby for Fabric 1.21.5",
+  "description": "Compatibility layer between VulkanMod and Bobby for Fabric 1.21.5+",
   "authors": [],
   "contact": {},
   "license": "LGPL-3.0",
@@ -16,7 +16,7 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "bobby": "5.2.7",
-    "vulkanmod": "0.5.6"
+    "bobby": "5.2.10",
+    "vulkanmod": "0.5.7-beta.1"
   }
 }
