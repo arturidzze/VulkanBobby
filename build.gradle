@@ -31,8 +31,8 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modCompileOnly "maven.modrinth:bobby:FdlWKxsL"
-    modCompileOnly "maven.modrinth:vulkanmod:7pYvUnJk"
+    modCompileOnly "maven.modrinth:bobby:xiXouhmS"
+    modCompileOnly "maven.modrinth:vulkanmod:W5NshIjY"
 }
 
 processResources {
