@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.13-SNAPSHOT'
+    id 'fabric-loom' version '1.14-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -31,8 +31,8 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modCompileOnly "maven.modrinth:bobby:xiXouhmS"
-    modCompileOnly "maven.modrinth:vulkanmod:W5NshIjY"
+    modCompileOnly "maven.modrinth:bobby:y6wx9vV9"
+    modCompileOnly "maven.modrinth:vulkanmod:UOlHod70"
 }
 
 processResources {
@@ -73,7 +73,7 @@ java {
 
 jar {
     from("LICENSE") {
-        rename { "${it}_${project.archivesBaseName}" }
+        rename { "${it}_${base.archivesName.get()}" }
     }
 }
 

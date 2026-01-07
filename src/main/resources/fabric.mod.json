@@ -15,8 +15,8 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": ">=1.21.9",
-    "bobby": ">=5.2.10",
-    "vulkanmod": ">=0.5.7"
+    "minecraft": ">=1.21.11",
+    "bobby": ">=5.2.11",
+    "vulkanmod": ">=0.5.8"
   }
 }
