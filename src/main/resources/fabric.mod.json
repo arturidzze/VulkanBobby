@@ -17,6 +17,6 @@
     "fabric": "*",
     "minecraft": ">=1.21.11",
     "bobby": ">=5.2.11",
-    "vulkanmod": ">=0.5.8"
+    "vulkanmod": ">=0.6.0"
   }
 }
