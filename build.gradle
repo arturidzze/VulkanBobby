@@ -32,7 +32,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modCompileOnly "maven.modrinth:bobby:y6wx9vV9"
-    modCompileOnly "maven.modrinth:vulkanmod:fwoxAiWu"
+    modCompileOnly "maven.modrinth:vulkanmod:9b6euAx4"
 }
 
 processResources {
